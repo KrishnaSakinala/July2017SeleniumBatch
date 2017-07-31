@@ -2,7 +2,7 @@ package Day1.com.automationtesting.dummy;
 
 public class ProtectedDemo {
 
-	// protected static int i = 15;
+	// protected static int i = 10;
 	protected static String s = "selenium";
 
 	public static void main(String[] args) {
