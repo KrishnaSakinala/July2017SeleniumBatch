@@ -9,7 +9,7 @@ public class WebDriverDemo {
 		//FirefoxDriver driver = new FirefoxDriver();
 		
 		//ChromeDriver driver1 = new ChromeDriver();
-		if(driver == chrome) // not exactly this
+		if(driver == driver) // not exactly this
 		{
 			driver = new FirefoxDriver();
 		}
