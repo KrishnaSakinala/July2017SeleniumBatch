@@ -19,9 +19,9 @@ public class HandlingBasicElements {
 		// Handling Text box
 		WebElement firstNameTextbox = driver.findElement(By.xpath("//*[@id='basicBootstrapForm']/div[1]/div[1]/input"));
 		firstNameTextbox.sendKeys("Selenium");
-		Thread.sleep(5000); // pausing the execution for 5 seconds
+		//Thread.sleep(5000); // pausing the execution for 5 seconds
 		firstNameTextbox.clear();
-		Thread.sleep(5000); // holds/pause the execution for 5 seconds
+		//Thread.sleep(5000); // holds/pause the execution for 5 seconds
 		firstNameTextbox.sendKeys("WebDriver");
 		
 		// Handling Text area
@@ -35,7 +35,7 @@ public class HandlingBasicElements {
 			moviesCheckbox.click();
 		}
 		
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		
 		if(!moviesCheckbox.isSelected()) {
 			moviesCheckbox.click();
@@ -43,7 +43,18 @@ public class HandlingBasicElements {
 		
 		// Handling radio button
 		WebElement femaleRadioButton = driver.findElement(By.xpath("//*[@id='basicBootstrapForm']/div[5]/div/label[2]/input"));
+		WebElement maleRadioButton = driver.findElement(By.xpath("//*[@id='basicBootstrapForm']/div[5]/div/label[1]/input"));
 		femaleRadioButton.click();
+		//Thread.sleep(5000);
+		
+		if(femaleRadioButton.isSelected()) {
+			maleRadioButton.click();
+		}
+		//Thread.sleep(5000);
+		if(maleRadioButton.isSelected()) {
+			femaleRadioButton.click();
+		}
+		
 		
 		// Handling Buttons
 		WebElement submitButton = driver.findElement(By.xpath("//*[@id='submitbtn']"));
