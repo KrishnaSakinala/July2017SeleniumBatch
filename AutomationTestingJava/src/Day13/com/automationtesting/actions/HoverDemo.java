@@ -26,15 +26,15 @@ public class HoverDemo {
 		WebElement webTableMenu = driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/a"));
 		webTableMenu.click();
 		
+		// Double clicking on Edit icon
+		
 		/*WebElement editIcon = driver.findElement(By.xpath("//*[@class='ui-grid-canvas']/div[1]/div/div[6]/user-click-select/div[1]/button/i"));
 		//action.moveToElement(editIcon).doubleClick().build().perform();
 		action.doubleClick(editIcon).perform();*/
 		
+		// Right Click on Delete icon
+		
 		WebElement deleteIcon = driver.findElement(By.xpath("//*[@class='ui-grid-canvas']/div[1]/div/div[6]/user-click-select/div[1]/del-click/button/i"));
 		action.contextClick(deleteIcon).perform();
-		
-		
-		
 	}
-
 }
