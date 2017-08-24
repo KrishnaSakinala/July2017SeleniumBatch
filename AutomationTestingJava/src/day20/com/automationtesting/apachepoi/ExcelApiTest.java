@@ -1,6 +1,7 @@
 package day20.com.automationtesting.apachepoi;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,12 +16,15 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelApiTest {
 
 	public FileInputStream fis = null;
+	public FileOutputStream fos = null;
 	public XSSFWorkbook workbook = null;
 	public XSSFSheet sheet = null;
 	public XSSFRow row = null;
 	public XSSFCell cell = null;
+	public String xlFilePath = null;
 
 	public ExcelApiTest(String xlFilePath) throws Exception {
+		this.xlFilePath = xlFilePath;
 		fis = new FileInputStream(xlFilePath);
 		workbook = new XSSFWorkbook(fis);
 		fis.close();
@@ -99,6 +103,70 @@ public class ExcelApiTest {
 		row = sheet.getRow(0);
 		int colCount = row.getLastCellNum();
 		return colCount;
+	}
+
+	public boolean setCellData(String sheetName, int ColNum, int rowNum, String value) {
+
+		try {
+			sheet = workbook.getSheet(sheetName);
+			row = sheet.getRow(rowNum);
+			if (row == null) {
+				row = sheet.createRow(rowNum);
+			}
+
+			cell = row.getCell(ColNum);
+			if (cell == null) {
+				cell = row.createCell(ColNum);
+			}
+
+			cell.setCellValue(value);
+
+			fos = new FileOutputStream(xlFilePath);
+			workbook.write(fos);
+			fos.close();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+
+	public boolean setCellData(String sheetName, String colName, int rowNum, String value) {
+		try {
+
+			int colNum = -1;
+			sheet = workbook.getSheet(sheetName);
+
+			row = sheet.getRow(0);
+			for (int i = 0; i < row.getLastCellNum(); i++) {
+				if (row.getCell(i).getStringCellValue().trim().equals(colName)) {
+					colNum = i;
+				}
+			}
+
+			sheet.autoSizeColumn(colNum);
+			row = sheet.getRow(rowNum - 1);
+			if (row == null) {
+				row = sheet.createRow(rowNum - 1);
+			}
+
+			cell = row.getCell(colNum);
+			if (cell == null) {
+				cell = row.createCell(colNum);
+			}
+
+			cell.setCellValue(value);
+
+			fos = new FileOutputStream(xlFilePath);
+			workbook.write(fos);
+			fos.close();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
 	}
 
 }

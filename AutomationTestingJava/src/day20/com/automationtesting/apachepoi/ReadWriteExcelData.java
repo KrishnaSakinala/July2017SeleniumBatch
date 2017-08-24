@@ -1,6 +1,6 @@
 package day20.com.automationtesting.apachepoi;
 
-public class ReadExcelData {
+public class ReadWriteExcelData {
 
 	public static void main(String[] args) throws Exception {
 
@@ -41,6 +41,18 @@ public class ReadExcelData {
 
 		System.out.println(eat.getRowCount("UserData"));
 		System.out.println(eat.getColumnCount("UserData"));
+
+		System.out.println("----------- Writing data to excel using col Number -----------");
+		eat.setCellData("UserData", 0, 9, "First8");
+		eat.setCellData("UserData", 1, 9, "Last8");
+		eat.setCellData("UserData", 2, 9, "8@gmail.com");
+		eat.setCellData("UserData", 3, 9, "8888888888");
+
+		System.out.println("----------- Writing data to excel using col Name -----------");
+		eat.setCellData("UserData", "FirstName", 8, "First9");
+		eat.setCellData("UserData", "LastName", 8, "Last9");
+		eat.setCellData("UserData", "Email", 8, "9@gmail.com");
+		eat.setCellData("UserData", "Phone", 8, "99999999999");
 
 	}
 
