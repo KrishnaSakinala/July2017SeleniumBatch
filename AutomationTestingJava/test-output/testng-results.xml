@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="255" started-at="2017-08-25T02:16:38Z" finished-at="2017-08-25T02:16:38Z">
+    <groups>
+      <group name="secondGroup">
+        <method signature="BeforeAndAfterClass.secondGroupMethodOne()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="secondGroupMethodOne" class="day22.com.automationtesting.testng.BeforeAndAfterClass"/>
+        <method signature="BeforeAndAfterClass.secondGroupMethodTwo()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="secondGroupMethodTwo" class="day22.com.automationtesting.testng.BeforeAndAfterClass"/>
+      </group> <!-- secondGroup -->
+      <group name="firstGroup">
+        <method signature="BeforeAndAfterClass.firstGroupMethodOne()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="firstGroupMethodOne" class="day22.com.automationtesting.testng.BeforeAndAfterClass"/>
+        <method signature="BeforeAndAfterClass.firstGroupMethodTwo()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="firstGroupMethodTwo" class="day22.com.automationtesting.testng.BeforeAndAfterClass"/>
+      </group> <!-- firstGroup -->
+    </groups>
+    <test name="TestOne" duration-ms="50" started-at="2017-08-25T02:16:38Z" finished-at="2017-08-25T02:16:38Z">
+      <class name="day22.com.automationtesting.testng.BeforeAndAfterClass">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="beforeTest" is-config="true" duration-ms="2" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeFirstGroup()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="beforeFirstGroup" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFirstGroup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="firstGroupMethodOne()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="firstGroupMethodOne" duration-ms="6" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstGroupMethodOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="firstGroupMethodTwo()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="firstGroupMethodTwo" duration-ms="3" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstGroupMethodTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterFirstGroup()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="afterFirstGroup" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFirstGroup -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@1753acfe]" name="afterTest" is-config="true" duration-ms="3" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- day22.com.automationtesting.testng.BeforeAndAfterClass -->
+    </test> <!-- TestOne -->
+    <test name="TesTwo" duration-ms="19" started-at="2017-08-25T02:16:38Z" finished-at="2017-08-25T02:16:38Z">
+      <class name="day22.com.automationtesting.testng.BeforeAndAfterClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="beforeTest" is-config="true" duration-ms="3" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeSecondGroup()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="beforeSecondGroup" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSecondGroup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="secondGroupMethodOne()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="secondGroupMethodOne" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondGroupMethodOne -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="secondGroupMethodTwo()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="secondGroupMethodTwo" duration-ms="4" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondGroupMethodTwo -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSecondGroup()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="afterSecondGroup" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSecondGroup -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:day22.com.automationtesting.testng.BeforeAndAfterClass@14acaea5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-08-25T07:46:38Z" finished-at="2017-08-25T07:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- day22.com.automationtesting.testng.BeforeAndAfterClass -->
+    </test> <!-- TesTwo -->
+  </suite> <!-- Suite -->
+</testng-results>
