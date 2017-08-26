@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test1(failed)(failed)">
+    <classes>
+      <class name="day22.com.automationtesting.testng.TestNgDemo1">
+        <methods>
+          <include name="testCase6"/>
+          <include name="testCase8"/>
+        </methods>
+      </class> <!-- day22.com.automationtesting.testng.TestNgDemo1 -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+  <test name="Test2(failed)(failed)">
+    <classes>
+      <class name="day22.com.automationtesting.testng.TestNgDemo">
+        <methods>
+          <include name="testCase3"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- day22.com.automationtesting.testng.TestNgDemo -->
+    </classes>
+  </test> <!-- Test2(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

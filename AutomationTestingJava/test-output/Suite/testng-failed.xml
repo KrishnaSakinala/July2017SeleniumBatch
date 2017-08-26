@@ -9,6 +9,10 @@
           <include name="testCase8"/>
         </methods>
       </class> <!-- day22.com.automationtesting.testng.TestNgDemo1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
       <class name="day22.com.automationtesting.testng.TestNgDemo">
         <methods>
           <include name="testCase3"/>
@@ -16,5 +20,5 @@
         </methods>
       </class> <!-- day22.com.automationtesting.testng.TestNgDemo -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="day22.com.automationtesting.testng.TestNgDemo">
+      <class name="day22.com.automationtesting.testng.DataProviderInSameClass">
         <methods>
-          <include name="testCase3"/>
-          <include name="testCase1"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- day22.com.automationtesting.testng.TestNgDemo -->
+      </class> <!-- day22.com.automationtesting.testng.DataProviderInSameClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
