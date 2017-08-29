@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test1(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="day22.com.automationtesting.testng.TestNgDemo1">
+      <class name="day24.com.automationtesting.extentreports.CapturingScreenshot">
         <methods>
-          <include name="testCase6"/>
-          <include name="testCase8"/>
+          <include name="captureScreenshot"/>
+          <include name="endReport"/>
+          <include name="config"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- day22.com.automationtesting.testng.TestNgDemo1 -->
+      </class> <!-- day24.com.automationtesting.extentreports.CapturingScreenshot -->
     </classes>
-  </test> <!-- Test1(failed) -->
-  <test name="Test2(failed)">
-    <classes>
-      <class name="day22.com.automationtesting.testng.TestNgDemo">
-        <methods>
-          <include name="testCase3"/>
-          <include name="testCase1"/>
-        </methods>
-      </class> <!-- day22.com.automationtesting.testng.TestNgDemo -->
-    </classes>
-  </test> <!-- Test2(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

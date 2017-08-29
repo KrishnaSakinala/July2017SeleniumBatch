@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="day22.com.automationtesting.testng.DataProviderInSameClass">
+      <class name="day24.com.automationtesting.extentreports.CapturingScreenshot">
         <methods>
-          <include name="testCase2"/>
+          <include name="captureScreenshot"/>
+          <include name="endReport"/>
+          <include name="config"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- day22.com.automationtesting.testng.DataProviderInSameClass -->
+      </class> <!-- day24.com.automationtesting.extentreports.CapturingScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
