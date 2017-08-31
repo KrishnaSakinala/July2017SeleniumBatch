@@ -31,5 +31,6 @@
 	<classpathentry kind="lib" path="/KRISHNA VOLUME/Jar Files/extentreports-java-3.0.6/lib/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="/KRISHNA VOLUME/Jar Files/extentreports-java-3.0.6/lib/mongodb-driver-core-3.3.0.jar"/>
 	<classpathentry kind="lib" path="/KRISHNA VOLUME/Jar Files/extentreports-java-3.0.6/lib/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="/KRISHNA VOLUME/Jar Files/mysql-connector-java-6.0.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
